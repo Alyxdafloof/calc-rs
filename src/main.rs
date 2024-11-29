@@ -44,52 +44,64 @@ fn addition () {
         .read_line(&mut y)
         .expect("couldnt read line");
     let y: f64 = y.trim().parse().expect("cant parse");
+
+    let z = x + y;
+    println!("result is {}", z);
 }
 
 fn subtraction () {
     println!("what is your first number(to the first decimal)");
-let mut x = String::new();
-io::stdin()
+    let mut x = String::new();
+    io::stdin()
 	.read_line(&mut x)
 	.expect("couldnt read line");
-let x: f64 = x.trim().parse().expect("couldnt parse");
+    let x: f64 = x.trim().parse().expect("couldnt parse");
 
-println!("what is your second number(to the first decimal)");
-let mut y = String::new();
-io::stdin()
+    println!("what is your second number(to the first decimal)");
+    let mut y = String::new();
+    io::stdin()
 	.read_line(&mut y)
 	.expect("couldnt read line");
-let y: f64 = y.trim().parse().expect("couldnt parse");
+    let y: f64 = y.trim().parse().expect("couldnt parse");
+
+    let z = x - y;
+    println!("result is {}", z);
 }
 
 fn multiplication () {
     println!("what is your first number(to the first decimal)");
-let mut x = String::new();
-io::stdin()
+    let mut x = String::new();
+    io::stdin()
 	.read_line(&mut x)
 	.expect("couldnt read line");
-let x: f64 = x.trim().parse().expect("couldnt parse");
+    let x: f64 = x.trim().parse().expect("couldnt parse");
 
-println!("what is your second number(to the first decimal)");
-let mut y = String::new();
-io::stdin()
+    println!("what is your second number(to the first decimal)");
+    let mut y = String::new();
+    io::stdin()
 	.read_line(&mut y)
 	.expect("couldnt read line");
-let y: f64 = y.trim().parse().expect("couldnt parse");
+    let y: f64 = y.trim().parse().expect("couldnt parse");
+
+    let z = x * y;
+    println!("result is {}", z);
 }
 
 fn division () {
     println!("what is your first number(to the first decimal)");
-let mut x = String::new();
-io::stdin()
+    let mut x = String::new();
+    io::stdin()
 	.read_line(&mut x)
 	.expect("couldnt read line");
-let x: f64 = x.trim().parse().expect("couldnt parse");
+    let x: f64 = x.trim().parse().expect("couldnt parse");
 
-println!("what is your second number(to the first decimal)");
-let mut y = String::new();
-io::stdin()
+    println!("what is your second number(to the first decimal)");
+    let mut y = String::new();
+    io::stdin()
 	.read_line(&mut y)
 	.expect("couldnt read line");
-let y: f64 = y.trim().parse().expect("couldnt parse");
+    let y: f64 = y.trim().parse().expect("couldnt parse");
+
+    let z = x / y;
+    println!("result is {}", z);
 }
