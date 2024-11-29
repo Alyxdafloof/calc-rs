@@ -1,0 +1,4 @@
+//CALCULATOR PROJECT IN RUST//
+-as a learning excersise I am making a calculator that can do
+-basic arithmatic functions like + - * and / for two numbers
+//END??
